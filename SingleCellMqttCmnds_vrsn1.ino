@@ -1,5 +1,5 @@
 ////when start button of charging/discharging is pressed ,only once reading of starting_voltage , initial_ah , bat_state of a single LFP cell are sent to MQTT server
-////when stop button is pressed manually , only once reading of (ending_voltage, final_ah, bat_state )of a single LFP cell are sent to Mqtt server
+////when stop button is pressed manually , only once reading of (ending_voltage, final_ah, bat_state )of single LFP cell are sent to Mqtt server
 //in between start and stop buttons continuous reading of cell_voltage, current , accumulated_charge, accumulated_Ah of LFP cell are sent to MQTT  server
 ///through MQTT apps/server charging or discharging can be started automatically, just by sending commands "01"=start charging ,"10"=start discharging, "00"== stop
 
